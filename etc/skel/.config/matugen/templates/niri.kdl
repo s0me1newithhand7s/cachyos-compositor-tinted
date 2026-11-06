@@ -1,30 +1,29 @@
 layout {
-    background-color #"{{base16.base00.default.hex | to_color | format: "rgba" }}"#
-    fullscreen-backdrop-color #"{{base16.base01.default.hex | to_color | format: "rgba" }}"#
+    background-color "{{base16.base00.default.hex | to_color | format: "rgba" }}"
 
     focus-ring {
-        active-color #"{{base16.base0d.default.hex | to_color | format: "rgba" }}"#
-        inactive-color #"{{base16.base02.default.hex | to_color | format: "rgba" }}"#
-        urgent-color #"{{base16.base08.default.hex | to_color | format: "rgba" }}"#
+        active-color "{{base16.base0d.default.hex | to_color | format: "rgba" }}"
+        inactive-color "{{base16.base02.default.hex | to_color | format: "rgba" }}"
+        urgent-color "{{base16.base08.default.hex | to_color | format: "rgba" }}"
     }
 
     border {
-        active-color #"{{base16.base0e.default.hex | to_color | format: "rgba" }}"#
-        inactive-color #"{{base16.base02.default.hex | to_color | format: "rgba" }}"#
-        urgent-color #"{{base16.base08.default.hex | to_color | format: "rgba" }}"#
+        active-color "{{base16.base0e.default.hex | to_color | format: "rgba" }}"
+        inactive-color "{{base16.base02.default.hex | to_color | format: "rgba" }}"
+        urgent-color "{{base16.base08.default.hex | to_color | format: "rgba" }}"
     }
 
     shadow {
-        color #"{{base16.base00.default.hex | to_color | format: "rgba" }}"#
+        color "{{base16.base00.default.hex | to_color | format: "rgba" }}"
     }
 
     tab-indicator {
-        active-color #"{{base16.base0d.default.hex | to_color | format: "rgba" }}"#
-        inactive-color #"{{base16.base03.default.hex | to_color | format: "rgba" }}"#
-        urgent-color #"{{base16.base09.default.hex | to_color | format: "rgba" }}"#
+        active-color "{{base16.base0d.default.hex | to_color | format: "rgba" }}"
+        inactive-color "{{base16.base03.default.hex | to_color | format: "rgba" }}"
+        urgent-color "{{base16.base09.default.hex | to_color | format: "rgba" }}"
     }
 
     insert-hint {
-        color #"{{base16.base0b.default.hex | to_color | format: "rgba" }}"#
+        color "{{base16.base0b.default.hex | to_color | format: "rgba" }}"
     }
 }

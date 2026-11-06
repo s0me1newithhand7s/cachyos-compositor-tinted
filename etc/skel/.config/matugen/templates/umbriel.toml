@@ -1,31 +1,31 @@
 [colors]
-background = {{base16.base00.default.hex | to_color | format: "hex_alpha_stripped"}}
-text_primary = {{base16.base05.default.hex | to_color | format: "hex_alpha_stripped"}}
-text_muted = {{base16.base03.default.hex | to_color | format: "hex_alpha_stripped"}}
-accent_primary = {{base16.base0d.default.hex | to_color | format: "hex_alpha_stripped"}}
-accent_secondary = {{base16.base0e.default.hex | to_color | format: "hex_alpha_stripped"}}
-warning = {{base16.base0a.default.hex | to_color | format: "hex_alpha_stripped"}}
-error = {{base16.base08.default.hex | to_color | format: "hex_alpha_stripped"}}
-insert_hint = {{base16.base0b.default.hex | to_color | format: "hex_alpha_stripped"}}
-backdrop = {{base16.base01.default.hex | to_color | format: "hex_alpha_stripped"}}
-shadow = {{base16.base00.default.hex | to_color | format: "hex_alpha_stripped"}}
+background = '{{base16.base00.default.hex | to_color | format: "hex_alpha"}}'
+text_primary = '{{base16.base05.default.hex | to_color | format: "hex_alpha"}}'
+text_muted = '{{base16.base03.default.hex | to_color | format: "hex_alpha"}}'
+accent_primary = '{{base16.base0d.default.hex | to_color | format: "hex_alpha"}}'
+accent_secondary = '{{base16.base0e.default.hex | to_color | format: "hex_alpha"}}'
+warning = '{{base16.base0a.default.hex | to_color | format: "hex_alpha"}}'
+error = '{{base16.base08.default.hex | to_color | format: "hex_alpha"}}'
+insert_hint = '{{base16.base0b.default.hex | to_color | format: "hex_alpha"}}'
+backdrop = '{{base16.base01.default.hex | to_color | format: "hex_alpha"}}'
+shadow = '{{base16.base00.default.hex | to_color | format: "hex_alpha"}}'
 
 [colors.border]
-focused = {{base16.base0d.default.hex | to_color | format: "hex_alpha_stripped"}}
-unfocused = {{base16.base02.default.hex | to_color | format: "hex_alpha_stripped"}}
-outer = {{base16.base01.default.hex | to_color | format: "hex_alpha_stripped"}}
+focused = '{{base16.base0d.default.hex | to_color | format: "hex_alpha"}}'
+unfocused = '{{base16.base02.default.hex | to_color | format: "hex_alpha"}}'
+outer = '{{base16.base01.default.hex | to_color | format: "hex_alpha"}}'
 
 [colors.overview]
-background_tint = {{base16.base01.default.hex | to_color | format: "hex_alpha_stripped"}}
-workspace_background = {{base16.base00.default.hex | to_color | format: "hex_alpha_stripped"}}
-badge = {{base16.base0d.default.hex | to_color | format: "hex_alpha_stripped"}}
+background_tint = '{{base16.base01.default.hex | to_color | format: "hex_alpha"}}'
+workspace_background = '{{base16.base00.default.hex | to_color | format: "hex_alpha"}}'
+badge = '{{base16.base0d.default.hex | to_color | format: "hex_alpha"}}'
 
 [colors.tab_bar]
-background = {{base16.base01.default.hex | to_color | format: "hex_alpha_stripped"}}
-text = {{base16.base03.default.hex | to_color | format: "hex_alpha_stripped"}}
-active = {{base16.base0d.default.hex | to_color | format: "hex_alpha_stripped"}}
-active_text = {{base16.base00.default.hex | to_color | format: "hex_alpha_stripped"}}
-active_unfocused = {{base16.base02.default.hex | to_color | format: "hex_alpha_stripped"}}
-active_unfocused_text = {{base16.base05.default.hex | to_color | format: "hex_alpha_stripped"}}
-urgent = {{base16.base09.default.hex | to_color | format: "hex_alpha_stripped"}}
-urgent_text = {{base16.base00.default.hex | to_color | format: "hex_alpha_stripped"}}
+background = '{{base16.base01.default.hex | to_color | format: "hex_alpha"}}'
+text = '{{base16.base03.default.hex | to_color | format: "hex_alpha"}}'
+active = '{{base16.base0d.default.hex | to_color | format: "hex_alpha"}}'
+active_text = '{{base16.base00.default.hex | to_color | format: "hex_alpha"}}'
+active_unfocused = '{{base16.base02.default.hex | to_color | format: "hex_alpha"}}'
+active_unfocused_text = '{{base16.base05.default.hex | to_color | format: "hex_alpha"}}'
+urgent = '{{base16.base09.default.hex | to_color | format: "hex_alpha"}}'
+urgent_text = '{{base16.base00.default.hex | to_color | format: "hex_alpha"}}'
