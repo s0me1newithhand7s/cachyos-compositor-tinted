@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=awww
+Exec=awww img /usr/share/wallpapers/Cachy_Topography6.jpg --transition-step 90 --transition-type wipe --transition-angle 90

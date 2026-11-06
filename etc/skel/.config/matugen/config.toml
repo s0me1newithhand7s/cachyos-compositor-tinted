@@ -1,0 +1,18 @@
+[config]
+wallpapers = false
+
+[templates."kitty"]
+input_path = '~/.config/matugen/templates/kitty.conf'
+output_path = '~/.config/kitty/colors.conf'
+
+[templates."fastfetch"]
+input_path = '~/.config/matugen/templates/fastfetch.json'
+output_path = '~/.config/fastfetch/colors.json'
+
+[templates."gtk3"]
+input_path = '~/.config/matugen/templates/gtk.css'
+output_path = '~/.config/gtk-3.0/gtk.css'
+
+[templates."gtk4"]
+input_path = '~/.config/matugen/templates/gtk.css'
+output_path = '~/.config/gtk-4.0/gtk.css'
