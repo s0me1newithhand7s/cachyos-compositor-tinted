@@ -1,8 +1,0 @@
-{
-  "display": {
-    "color": {
-      "keys": "38;2;{{base0D | r}},{{base0D | g}},{{base0D | b}}",
-      "title": "38;2;{{base0E | r}},{{base0E | g}},{{base0E | b}}"
-    }
-  }
-}

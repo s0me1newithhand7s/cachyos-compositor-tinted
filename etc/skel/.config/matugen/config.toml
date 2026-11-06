@@ -5,10 +5,6 @@ wallpapers = false
 input_path = '~/.config/matugen/templates/kitty.conf'
 output_path = '~/.config/kitty/colors.conf'
 
-[templates."fastfetch"]
-input_path = '~/.config/matugen/templates/fastfetch.json'
-output_path = '~/.config/fastfetch/colors.json'
-
 [templates."gtk3"]
 input_path = '~/.config/matugen/templates/gtk.css'
 output_path = '~/.config/gtk-3.0/gtk.css'
@@ -16,3 +12,23 @@ output_path = '~/.config/gtk-3.0/gtk.css'
 [templates."gtk4"]
 input_path = '~/.config/matugen/templates/gtk.css'
 output_path = '~/.config/gtk-4.0/gtk.css'
+
+[templates."hyprland"]
+input_path = '~/.config/matugen/templates/hyprland.lua'
+output_path = '~/.config/hypr/config/colors.lua'
+
+[templates."jay"]
+input_path = '~/.config/matugen/templates/jay.toml'
+output_path = '~/.config/jay/config/colors.toml'
+
+[templates."mango"]
+input_path = '~/.config/matugen/templates/mango.conf'
+output_path = '~/.config/mango/config/colors.conf'
+
+[templates."niri"]
+input_path = '~/.config/matugen/templates/niri.kdl'
+output_path = '~/.config/niri/config/colors.kdl'
+
+[templates."umbriel"]
+input_path = '~/.config/matugen/templates/umbriel.toml'
+output_path = '~/.config/umbriel/config/colors.toml'

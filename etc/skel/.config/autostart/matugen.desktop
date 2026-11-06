@@ -1,4 +1,4 @@
 [Desktop Entry]
 Type=Application
 Name=matugen
-Exec=matugen json ~/.config/matugen/config.toml
+Exec=matugen json ~/.config/matugen/tinted.json
