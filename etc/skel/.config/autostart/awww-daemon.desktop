@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=awww-daemon
+Exec=/usr/bin/awww-daemon
+X-UWSM-Slice=background
